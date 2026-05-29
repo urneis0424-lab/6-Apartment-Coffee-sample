@@ -39,9 +39,7 @@ export default function MapSection() {
 
             <div className="pt-2">
               <a
-                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                  storeData.addressMapQuery
-                )}`}
+                href="https://maps.app.goo.gl/ECSg5KVAB4xTDC2R9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-sm inline-flex items-center gap-2"
@@ -58,7 +56,7 @@ export default function MapSection() {
           <div className="md:col-span-3">
             <div className="rounded-lg overflow-hidden shadow-md border border-stone-200 h-80 md:h-96">
               <iframe
-                src="https://maps.google.com/maps?q=36.5798944,136.6113942&z=17&output=embed&hl=ja"
+                src="https://maps.google.com/maps?q=36.573548,136.6474402&z=17&output=embed&hl=ja"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
