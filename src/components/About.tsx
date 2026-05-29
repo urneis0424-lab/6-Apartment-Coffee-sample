@@ -1,6 +1,6 @@
 import { storeData } from '../data/store'
 
-const ABOUT_HEADING = '隠れ家のような、居心地のいい空間'
+const ABOUT_HEADING = '隠れ家のような空間'
 
 export default function About() {
   return (

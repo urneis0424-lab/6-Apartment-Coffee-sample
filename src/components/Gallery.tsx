@@ -12,15 +12,8 @@ export default function Gallery() {
         </div>
 
         <div
-          className="
-            flex md:grid md:grid-cols-2 lg:grid-cols-4
-            gap-4
-            overflow-x-auto md:overflow-visible
-            snap-x snap-mandatory md:snap-none
-            pb-4 md:pb-0
-            px-4
-            scrollbar-hide
-          "
+          className="flex md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 overflow-x-auto md:overflow-visible snap-x snap-mandatory md:snap-none pb-4 md:pb-0 px-4 scrollbar-hide"
+          style={{ touchAction: 'pan-x', overscrollBehaviorX: 'contain' }}
         >
           {storeData.gallery.map((item, i) => (
             <div

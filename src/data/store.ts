@@ -1,7 +1,7 @@
 export const storeData = {
   name: '6 APARTMENT COFFEE',
   nameEn: '6 APARTMENT COFFEE',
-  catchcopy: '金沢駅から歩いて行ける、おしゃれな隠れ家カフェ。',
+  catchcopy: '金沢駅から歩いて行ける\nおしゃれな隠れ家カフェ',
   description:
     '落ち着いた空間でこだわりのコーヒーとスイーツを楽しめるお店です。\n観光の合間の休憩にも、ひとり時間にもぴったり。',
   address: '住所は後ほど入力',
